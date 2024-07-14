@@ -1,0 +1,27 @@
+{
+  "name": "vacuum",
+  "version": "1.0.0",
+  "description": "server for react-app, NodeJS",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "nodemon ./src/server.ts",
+    "start": "node ./dist/server.js",
+    "build": "tsc"
+  },
+  "author": "Roman Rohozhnikov",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.14.10",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "env": "^0.0.2",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21"
+  }
+}
