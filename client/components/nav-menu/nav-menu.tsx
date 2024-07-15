@@ -1,29 +1,19 @@
 import { LinkNavButton } from "../buttons";
+import navContent from "../_mock/nav-text";
+
+
 const NavMenu = () => {
+  const listLinkNavButton = navContent.map((item) => {
+    return (
+      <li key={item.id}>
+        <LinkNavButton href={`#${item.id}`}>{item.content}</LinkNavButton>
+      </li>
+    );
+  });
   return (
     <nav className="my-5">
       <ul className="flex flex-row gap-6 text-2xl">
-        <li>
-          <LinkNavButton href={{ pathname: "#benefits" }}>
-            Переваги
-          </LinkNavButton>
-        </li>
-        <li>
-          <LinkNavButton href={{ pathname: "#how-it-works" }}>
-            Як це працює
-          </LinkNavButton>
-        </li>
-        <li>
-          <LinkNavButton href={{ pathname: "#products" }}>
-            Продукція
-          </LinkNavButton>
-        </li>
-        <li>
-          <LinkNavButton href={{ pathname: "#reviews" }}>Відгуки</LinkNavButton>
-        </li>
-        <li>
-          <LinkNavButton href={{ pathname: "#contact" }}>Зв’язок</LinkNavButton>
-        </li>
+        {listLinkNavButton}
       </ul>
     </nav>
   );

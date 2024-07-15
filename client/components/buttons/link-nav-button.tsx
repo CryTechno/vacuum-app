@@ -9,7 +9,7 @@ const LinkNavButton: React.FC<Props> = ({ children, href }) => {
   return (
     <Link
       className="font-nunito font-size-24 text-regular hover:text-textNav transition duration-400"
-      href={href}
+      href={href} scroll={false}
     >
       {children}
     </Link>
