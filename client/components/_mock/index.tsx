@@ -1,2 +1,4 @@
 import navContent from "./nav-text";
-export {navContent}
+import BannerContent from "./banner";
+import BenefitsContent from "./benefits";
+export {navContent, BannerContent, BenefitsContent}

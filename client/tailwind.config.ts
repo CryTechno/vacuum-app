@@ -14,11 +14,13 @@ const config: Config = {
         nunito: ["var(--font-nunito)"],
       },
       colors: {
+        benefits: "#888888",
         header: "#646464",
         button: "#00A8E0",
         howerButton: "#00A0D6",
         deactivatedButton: "#8EDFF9",
         textNav: "#3BB9E3",
+        secondText: "#A8A8A8",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

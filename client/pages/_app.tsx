@@ -13,8 +13,6 @@ const nunito = Nunito({
 });
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className={`${montserrat.variable} ${nunito.variable}`}>
-      <Component {...pageProps} />;
-    </main>
+      <Component {...pageProps} />
   );
 }
