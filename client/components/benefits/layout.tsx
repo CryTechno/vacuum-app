@@ -3,8 +3,8 @@ interface Props {
     svgComponent: JSX.Element;
 };
 
-const Layout: React.FC<Props> = ({content, svgComponent}) => {
-    return <div className="flex flex-col items-center py-[16px] px-[32px] bg-benefits rounded-lg w-[300px]">
+const Layout = ({content, svgComponent}: Props) => {
+    return <div className="flex flex-col items-center py-[16px] px-[32px] bg-benefits rounded-3xl w-[300px]">
         <div className="fill-white w-[64px]">
             {svgComponent}
         </div>

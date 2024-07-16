@@ -1,11 +1,12 @@
-import  BenefitCards  from "./benefit-cards";
+import BenefitCards  from "./benefit-cards";
+import { Title } from "../title";
 
 const Benefits = () => {
 
     return (
 
         <div className="flex flex-col items-center">
-            <h2 className="mt-[92px] text-5xl font-bold font-montserrat">Переваги</h2>
+            <Title title="Переваги" />
             <BenefitCards />
         </div>
 

@@ -1,29 +1,35 @@
-import { CarSvg } from "@/components/icons";
+import { CarSvg, EngineSvg, EasySvg, CollapseSvg, CleanSvg, CoverSvg} from "@/components/icons";
 
 const BenefitsContent = [
     {
+        id: 1,
         content: "Збереження чистоти",
         svgComponent: CarSvg
     },
     {
-        content: "Збереження чистоти",
-        svgComponent: CarSvg
+        id: 2,
+        content: "Потужний двигун",
+        svgComponent: EngineSvg
     },
     {
-        content: "Збереження чистоти",
-        svgComponent: CarSvg
+        id: 3,
+        content: "Легкий у використанні",
+        svgComponent: EasySvg
     },
     {
-        content: "Збереження чистоти",
-        svgComponent: CarSvg
+        id: 4,
+        content: "Компактний розмір",
+        svgComponent: CollapseSvg
     },
     {
-        content: "Збереження чистоти",
-        svgComponent: CarSvg
+        id: 5,
+        content: "Швидке прибирання",
+        svgComponent: CleanSvg
     },
     {
-        content: "Збереження чистоти",
-        svgComponent: CarSvg
+        id: 6,
+        content: "Легке очищення",
+        svgComponent: CoverSvg
     },
 ]
 export default BenefitsContent

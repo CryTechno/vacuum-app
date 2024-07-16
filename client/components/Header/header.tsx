@@ -7,7 +7,7 @@ import { NavMenu } from "../nav-menu";
 const Header = () => {
   return (
     <header>
-      <div className="sticky top-0 flex justify-center gap-6 backdrop-blur bg-header/[.77] text-white text-regular text-2xl ">
+      <div className="fixed top-0 flex justify-center gap-6 backdrop-blur bg-header/[.77] text-white text-regular text-2xl w-full z-10">
         <div className="flex items-center text-3xl text-bold ">
           <div className="flex justify-center cursor-pointer h-[72px] ">
             <Link className="transition duration-2000 hover:scale-125" href = "/"><LogoSvg /></Link>

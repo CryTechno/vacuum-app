@@ -5,7 +5,7 @@ interface Props {
   children?: string;
   href: Url;
 }
-const LinkNavButton: React.FC<Props> = ({ children, href }) => {
+const LinkNavButton = ({ children, href }: Props) => {
   return (
     <Link
       className="font-nunito font-size-24 text-regular hover:text-textNav transition duration-400"

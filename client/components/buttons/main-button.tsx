@@ -4,7 +4,7 @@ interface Props {
   svgComponent?: JSX.Element;
 }
 
-const MainButton: React.FC<Props> = ({ text, svgComponent }) => {
+const MainButton = ({ text, svgComponent }: Props) => {
   return <LayoutButton text={text} svgComponent={svgComponent} />;
 };
 
