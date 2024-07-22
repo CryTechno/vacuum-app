@@ -1,4 +1,5 @@
-const HowItWorkContent = [
+import {HowItWorkType}  from "@/types/mockContentTypes/content";
+const HowItWorkContent: HowItWorkType[] = [
     {
         id: 1,
         content: "Перед початком переконайтесь, що пилосос зарядженний",

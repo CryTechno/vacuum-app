@@ -21,6 +21,7 @@ const config: Config = {
         deactivatedButton: "#8EDFF9",
         textNav: "#3BB9E3",
         secondText: "#A8A8A8",
+        products: "#EDEDED",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

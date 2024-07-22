@@ -3,16 +3,17 @@ import { Title } from "../title";
 import  HowItWorkCards  from "./how-it-work-cards";
 
 
+
 const HowItWork = () => {
-    const [currentWidth, setCurrentWidth] = useState<number>(0);
+    const [currentViewWidth, setCurrentViewWidth] = useState<number>(0);
     
     useEffect(() => {
-        setCurrentWidth(window.innerWidth);
-        console.log(currentWidth);
-    }, [currentWidth])
+        setCurrentViewWidth(window.innerWidth);
+        console.log(currentViewWidth);
+    }, [currentViewWidth])
 
     return (
-        <div className="flex flex-col items-center ">
+        <div className="relative flex flex-col items-center">
             <Title title="Як це працює?"/>
             <HowItWorkCards/>
         </div>

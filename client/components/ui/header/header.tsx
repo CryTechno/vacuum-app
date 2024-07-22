@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { MainButton } from "../buttons";
-import { CartSvg, LogoSvg } from "../icons";
+import { CartSvg, LogoSvg } from "../../icons";
 import { NavMenu } from "../nav-menu";
 
 

@@ -7,5 +7,7 @@ import EasySvg from "./easy-icon"
 import CollapseSvg from "./collapse-icon"
 import CleanSvg from "./clean-icon"
 import CoverSvg from "./cover-icon"
+import ArrowRight from "./arrow-right-icon"
+import RowConnector from "./row-connecor-icon"
 
-export { CartSvg, LogoSvg, RightArrowSvg, CarSvg, EngineSvg, EasySvg, CollapseSvg, CleanSvg, CoverSvg };
+export { CartSvg, LogoSvg, RightArrowSvg, CarSvg, EngineSvg, EasySvg, CollapseSvg, CleanSvg, CoverSvg, ArrowRight, RowConnector };

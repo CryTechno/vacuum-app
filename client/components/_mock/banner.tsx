@@ -1,5 +1,5 @@
 import { RightArrowSvg }  from "../icons";
-import vacuum from "../../public/vacuum-1.png";
+import vacuum from "@/public/vacuum-1.png";
 const BannerContent = {
     title: "Автомобільний пилосос — ваш помічник у чистоті",
     subtitle: "Компактний, потужний, надійний.",

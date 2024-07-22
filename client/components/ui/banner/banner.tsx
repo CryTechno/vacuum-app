@@ -1,7 +1,7 @@
 import { MainButton } from "../buttons";
-import { BannerContent } from "../_mock";
+import { BannerContent } from "@/components/_mock";
 import Image from 'next/image'
-import {Container} from "@/components/container";
+import {Container} from "@/components/ui/container";
 
 const Banner = () => {
     return ( 

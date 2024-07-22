@@ -1,5 +1,5 @@
 import { LinkNavButton } from "../buttons";
-import navContent from "../_mock/nav-text";
+import navContent from "@/components/_mock/nav-text";
 
 
 const NavMenu = () => {

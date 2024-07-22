@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Montserrat, Nunito } from "next/font/google";
-import { Header, Banner, Benefits, Container, HowItWork} from "@/components";
+import { Header, Banner, Benefits, HowItWork, Products} from "@/components";
 const montserrat = Montserrat({
   subsets: ["latin", "cyrillic"],
   weight: ["400", "700"],
@@ -21,6 +21,7 @@ export default function Home() {
           <Banner/>
           <Benefits/>
           <HowItWork/>
+          <Products/>
           </div>
     </main>
   

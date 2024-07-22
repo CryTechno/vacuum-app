@@ -5,7 +5,7 @@ const Benefits = () => {
 
     return (
 
-        <div className="flex flex-col items-center">
+        <div id="benefits" className="flex flex-col items-center">
             <Title title="Переваги" />
             <BenefitCards />
         </div>

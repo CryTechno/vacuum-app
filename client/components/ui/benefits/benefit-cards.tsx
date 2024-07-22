@@ -1,5 +1,5 @@
 import BenefitsContent from "@/components/_mock/benefits";
-import Layout from "@/components/benefits/layout";
+import Layout from "@/components/ui/benefits/layout";
 
 const BenefitCards = () => {
     const listBenefits = BenefitsContent.map(item => {

@@ -1,4 +1,6 @@
-const navContent = [
+import {navContentType} from "@/types/mockContentTypes/content";
+
+const navContent: navContentType[] = [
     {
         id: "benefits",
         content: "Переваги",
